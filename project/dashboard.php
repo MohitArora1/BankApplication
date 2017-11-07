@@ -30,7 +30,7 @@ include('connectdb.php');
 						$sql_emi="select * from loan_transactions where is_paid=false and installment_date between '$date1' and '$date2'";
 						$result_emi=mysqli_query($conn,$sql_emi);
 						echo '
-						<div table-responsive col-md-12">
+						<div class="table-responsive col-md-12">
 								<table class="table  table-striped table-bordered table-hover">
 									<thead class="bg-info">
 										<tr>
@@ -83,7 +83,7 @@ include('connectdb.php');
 						$sql_renewal="select * from rd_transactions where paid=false and due_date between '$date1' and '$date2'";
 						$result_renewal=mysqli_query($conn,$sql_renewal);
 						echo '
-						<div table-responsive col-md-12">
+						<div class="table-responsive col-md-12">
 								<table class="table  table-striped table-bordered table-hover">
 									<thead class="bg-info">
 										<tr>
