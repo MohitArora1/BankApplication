@@ -934,7 +934,7 @@ if(isset($_POST['edituser'])){
 				<br>
 				<br>
 			<div class="row">
-				<div class="col-md-6 bg-warning" style="height:600px">
+				<div class="col-md-6 bg-warning" style="height:1000px">
 					<div class="page-header text-center">
 						<h3>Due Loan EMI for This Month</h3>
 					</div>
@@ -987,7 +987,7 @@ if(isset($_POST['edituser'])){
 					</div>
 					</div>
 				</div>
-				<div class="col-md-6 bg-success" style="height:600px;">
+				<div class="col-md-6 bg-success" style="height:1000px;">
 					<div class="page-header text-center">
 						<h3>Renewal for This Month</h3>
 					</div>
